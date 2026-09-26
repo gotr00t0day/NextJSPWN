@@ -282,19 +282,6 @@ EOF
 
 ---
 
-## 🎯 Advanced Usage
-
-### Integration with Valhalla Framework
-
-```bash
-# Use Valhalla for reconnaissance
-cd /path/to/valhalla
-python3 valhalla.py --shodan-search 'http.html:"/_next/static"' --limit 100
-
-# Test discovered targets with NextJSPwn
-./Ragnarok/pocs/nextjspwn.py -f ips.txt -o nextjs_audit.json
-```
-
 ### Continuous Security Monitoring
 
 ```bash
