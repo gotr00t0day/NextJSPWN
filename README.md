@@ -115,7 +115,6 @@
 ### Install Dependencies
 
 ```bash
-cd /path/to/valhalla/Ragnarok/pocs
 pip3 install -r requirements.txt
 ```
 
